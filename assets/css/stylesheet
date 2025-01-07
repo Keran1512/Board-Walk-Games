@@ -23,14 +23,37 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 /* Navbar */
 #navbar {
-    font-family: var(--secondary-font);
+   
     background-color: var(--primary-font);
 }
 
 #navbar.logo {
-    width:30px
+    width: 30px
 }
+
+/* grid visualisation CSS for testing */
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+} */
